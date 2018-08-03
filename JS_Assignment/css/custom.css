@@ -1,0 +1,112 @@
+body, html {
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+.wrapper_outer {
+    position: relative;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 650px;
+    display: block;
+    background: url('../images/bg_image.jpg') center;
+    z-index: 1;
+    opacity: 0.8;
+}
+.wrapper_outer .navbar-default {
+    background-color: transparent;
+    position: relative;
+    margin: 0 auto;
+}
+.wrapper_outer .navbar-default .navbar-brand img {
+    width: 10%;
+    position: relative;
+}
+.wrapper_outer .navbar-default .navbar-brand a {
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin-top: 2%;
+    font-size: 25px;
+    letter-spacing: 0.2em;
+}
+.wrapper_outer .navbar-default .navbar-brand a:hover {
+    text-decoration: none;
+    color: black;
+    transition: all ease 0.5s;
+}
+.wrapper_outer .jumbotron {
+    width: 50%;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5%;
+    background: transparent;
+    padding: 90px 40px 40px 40px;
+}
+.wrapper_outer .jumbotron h1 {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 0.1em;
+}
+.wrapper_outer .jumbotron span {
+    color: gainsboro;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    line-height: 70px;
+}
+.outer-container {
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE;
+    position: relative;
+    padding: 60px 20px 20px 40px;
+}
+.outer-container .row .col-md-2 .panel-default {
+    background-color: #4e5d6c;
+    margin-bottom: 21px;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 300px;
+    padding: 30px 10px 10px 10px;
+}
+.outer-container .row .col-md-2 .panel-default .panel-heading span {
+    color: #ebebeb;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+.outer-container .row .col-md-2 .panel-default .panel-body {
+    margin-top: 10%;
+} 
+.outer-container .row .col-md-2  .panel-default .panel-body button {
+    margin-top: 10%;
+}
+.outer-container .row .col-md-2 .panel-default .panel-body button:hover {
+    background-color: black;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+}
+.outer-container .row .col-md-2 .panel-default .panel-body button span:hover {
+    color: white;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+} 
+
+.col-md-10 #table-area #data-table thead tr th {
+    font-size: 18px;
+}
+footer {
+    background-color: #4e5d6c;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+}
+footer span {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
